@@ -1,0 +1,45 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .features{
+        display: flex;
+  }
+  .overview{
+    margin-left: 25px;
+  }
+  #options{
+    border-radius: 25px;
+    padding: 5px;
+    margin:20px;
+  }
+  
+  .featuredItem {
+    flex: 1;
+    margin: 0px 10px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .featuredTitle{
+      font-size: 15px;
+  }
+  
+  .stats{
+      font-size: 30px;
+      font-weight: 600;
+      margin-left: 15px;
+  }
+  
+  
+  
+  
+  .featuredSub{
+      font-size: 10px;
+      color: gray;
+      margin-left: 15px;
+  }

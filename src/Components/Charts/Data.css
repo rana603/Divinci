@@ -1,0 +1,61 @@
+.Sale{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-right: 5px;
+    width: 15%;
+    margin-top: 20px;
+}
+
+.saleTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.saleImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.saleList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.saleItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.saleUser{
+    display: flex;
+    flex-direction: column;
+}
+
+.saleType{
+    font-weight: 40;
+    font-size: 15px;
+}
+
+.saleFor{
+    font-weight: 10px;
+    font-size: 10px;
+}
+
+.PriceHigh{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
