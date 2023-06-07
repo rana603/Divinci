@@ -96,9 +96,9 @@ export default function Feature() {
                     <option value="saturday">Saturday</option> */}
                 </select>
             </div>
-            {selected}
-            
-            {/* {data.map((opt, i) => {
+             {/* <p>{opt}</p> */}
+            {/*
+            {data.map((opt, i) => {
                 return(
                     <div key={opt.id}>
                        
