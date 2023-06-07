@@ -2,7 +2,7 @@ import React from "react";
 import "./navabr.css";
 // import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 
-export default function Topbar() {
+export default function Navbar() {
   return (
     <div className="Navbar">
       <div className="subNavbar">

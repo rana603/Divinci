@@ -3,7 +3,7 @@ import "./Data.css";
 export default function Data() {
   return (
     <div className="Sale">
-      <span className="saleFor">Sale Progress <span className="saleFor">view details</span></span>
+      <span className="saleTittle">Sale Progress <span className="salesubTittle">view details</span></span>
       <ul className="saleList">
         <li className="saleItem">
           <img
